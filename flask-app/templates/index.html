@@ -1,0 +1,269 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Entelege | Innovative Solutions</title>
+        <meta name="description" content="Cutting-Edge Software for Analytics">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="icon" href="img/icons/favicon.png">
+
+        <!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,100,300,700,900' rel='stylesheet' type='text/css'>
+	<!-- All CSS FILES -->
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/font-awesome.min.css">    
+        <link rel="stylesheet" href="/static/css/et-line-iocn.css">    
+        <link rel="stylesheet" href="/static/css/elements.css">    
+		<link rel="stylesheet" href="/static/style.css">
+        <link rel="stylesheet" href="/static/css/responsive.css">
+		<!-- MODERNIZE JS <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+        <script src="/static/js/vendor/modernizr-2.8.3.min.js"></script>
+        
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="/static/app-cloud.js"></script>
+        <script src="/static/d3.layout.cloud.js"></script>
+
+    </head>
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!--  THEME PRELOADER AREA -->
+        <div id="preloader-wrapper">
+            <div class="preloader-wave-effect"></div>
+        </div>
+        <!-- THEME PRELOADER AREA END -->
+        <!-- Main wrapper start -->
+        <div class="wrapper">
+            <!-- HEADER AREA -->
+            <header class="header-area header-style-one intelligent-header">
+                <div class="header-middle-area">
+                    <div class="container">
+                        <div class="row">
+							<div class="col-md-4  col-sm-2 col-xs-6">
+								<div class="logo">
+									<h3><a href="/">ENTELEGE</a></h3>
+								</div>
+							</div>
+							<div class="col-md-8 col-sm-10 hidden-xs hidden-sm">
+                                <div class="menu-area">
+    								<nav>
+    									<ul class="main-menu hover-style-one clearfix">
+    										<li><a href="#">POCs<span><i class="fa fa-angle-down"></i></span></a>
+                                                <ul>
+                                                    <li><a href="/">Stock Exchange</a></li>
+                                                </ul>
+                                            </li>
+    									</ul>
+                                    </nav>
+								</div>
+							</div>
+                            <div class="clearfix"></div>
+                            <!-- START OF MOBILE MENU AREA -->
+                            <div class="mobile-menu-area clearfix hidden-md hidden-lg">
+                                <nav class="mobile-menu">
+                                    <ul>
+                                        <li><a href="#">POCs</a>
+                                            <ul>
+                                                <li><a href="/">Stock Exchange</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- END OF MOBILE MENU AREA -->
+                        </div>
+                    </div>
+                </div>                
+            </header>		
+            <!-- END HEADER AREA -->
+            <div class="intelligent-header-space"></div>
+            <div class="content">
+                <!-- Breadcrumb area start -->
+                <div class="breadcrumb-area text-center ptb-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="breadcrumb-content">
+                                    <h2 class="page-cat">POC - Analytics on Real Time Stock Exchange Data</h2>
+                                    <ul class="breadcrumb-list">
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="#">POCs</a></li>
+                                        <li>Stock Exchange</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Breadcrumb area end -->            
+                <!-- Theme standard row Start for Blog -->
+                <div class="adam-standard-row gray-bg ptb-80">
+                    <div class="container">                    
+                        <div class="row">                        
+                            <div class="col-md-12">
+                                <article class="single-post single-blog-post-area">
+                                    <!-- <img src="http://placehold.it/1000x350" alt=""> -->
+                                    <div id="chart" class="svg-container">
+				    </div>
+
+
+
+
+
+
+
+<script>
+//var frequency_list = [{"text":"study","size":40},{"text":"motion","size":15},{"text":"forces","size":10},{"text":"electricity","size":15},{"text":"movement","size":10},{"text":"relation","size":5},{"text":"things","size":10},{"text":"force","size":5},{"text":"ad","size":5},{"text":"energy","size":85},{"text":"living","size":5},{"text":"nonliving","size":5},{"text":"laws","size":15},{"text":"speed","size":45},{"text":"velocity","size":30},{"text":"define","size":5},{"text":"constraints","size":5},{"text":"universe","size":10},{"text":"physics","size":120},{"text":"describing","size":5},{"text":"matter","size":90},{"text":"physics-the","size":5},{"text":"world","size":10},{"text":"works","size":10},{"text":"science","size":70},{"text":"interactions","size":30},{"text":"studies","size":5},{"text":"properties","size":45},{"text":"nature","size":40},{"text":"branch","size":30},{"text":"concerned","size":25},{"text":"source","size":40},{"text":"google","size":10},{"text":"defintions","size":5},{"text":"two","size":15},{"text":"grouped","size":15},{"text":"traditional","size":15},{"text":"fields","size":15},{"text":"acoustics","size":15},{"text":"optics","size":15},{"text":"mechanics","size":20},{"text":"thermodynamics","size":15},{"text":"electromagnetism","size":15},{"text":"modern","size":15},{"text":"extensions","size":15},{"text":"thefreedictionary","size":15},{"text":"interaction","size":15},{"text":"org","size":25},{"text":"answers","size":5},{"text":"natural","size":15},{"text":"objects","size":5},{"text":"treats","size":10},{"text":"acting","size":5},{"text":"department","size":5},{"text":"gravitation","size":5},{"text":"heat","size":10},{"text":"light","size":10},{"text":"magnetism","size":10},{"text":"modify","size":5},{"text":"general","size":10},{"text":"bodies","size":5},{"text":"philosophy","size":5},{"text":"brainyquote","size":5},{"text":"words","size":5},{"text":"ph","size":5},{"text":"html","size":5},{"text":"lrl","size":5},{"text":"zgzmeylfwuy","size":5},{"text":"subject","size":5},{"text":"distinguished","size":5},{"text":"chemistry","size":5},{"text":"biology","size":5},{"text":"includes","size":5},{"text":"radiation","size":5},{"text":"sound","size":5},{"text":"structure","size":5},{"text":"atoms","size":5},{"text":"including","size":10},{"text":"atomic","size":10},{"text":"nuclear","size":10},{"text":"cryogenics","size":10},{"text":"solid-state","size":10},{"text":"particle","size":10},{"text":"plasma","size":10},{"text":"deals","size":5},{"text":"merriam-webster","size":5},{"text":"dictionary","size":10},{"text":"analysis","size":5},{"text":"conducted","size":5},{"text":"order","size":5},{"text":"understand","size":5},{"text":"behaves","size":5},{"text":"en","size":5},{"text":"wikipedia","size":5},{"text":"wiki","size":5},{"text":"physics-","size":5},{"text":"physical","size":5},{"text":"behaviour","size":5},{"text":"collinsdictionary","size":5},{"text":"english","size":5},{"text":"time","size":35},{"text":"distance","size":35},{"text":"wheels","size":5},{"text":"revelations","size":5},{"text":"minute","size":5},{"text":"acceleration","size":20},{"text":"torque","size":5},{"text":"wheel","size":5},{"text":"rotations","size":5},{"text":"resistance","size":5},{"text":"momentum","size":5},{"text":"measure","size":10},{"text":"direction","size":10},{"text":"car","size":5},{"text":"add","size":5},{"text":"traveled","size":5},{"text":"weight","size":5},{"text":"electrical","size":5},{"text":"power","size":5}];
+var frequency_list = [d3.entries(hash)];
+
+var colors = d3.scale.category10();
+console.log(colors);
+
+var groupG = d3.select("#chart").append("svg")
+.attr("version", "1.1")
+.attr("viewBox", "0 0 1000 350")
+.attr("preserveAspectRatio", "xMinYMin meet")
+.attr("class", "wordcloud svg-content")
+.append("g")
+.attr("transform", "translate(320,200)");
+
+
+d3.layout.cloud().size([1000, 350])
+.words(frequency_list)
+.rotate(0)
+.fontSize(function(d) { return 8; })
+.on("end", draw)
+.start();
+
+function draw(words) {
+  var textContainer = groupG
+  .selectAll("text")
+  .data(words);
+
+  textContainer.enter().append("text");
+
+  textContainer.style("font-size", function(d) { return 12+ "px"; })
+  .style("fill", function(d, i) { return colors(i); })
+  .attr("transform", function(d) {
+    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+  })
+  .text(function(d) { return d.key; })
+  // add tooltip for mouseover count info
+  .append("text:title")
+  .text(function(d) { return d.value; });
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+                                    <div class="post-content">                                       
+                                        <h2 class="blog-post-title">Analytics on Real Time Stock Data</h2>
+                                        <div class="post-meta">
+                                            	<span class="post-time"><i class="icon-clock"></i> The Above Graphic is Not Active between 07:00 to 10:00 AM Indian Standard Time</span>
+						<span class="post-comment"><i class="icon-flag"></i>Quotes from the NSE Website with a time delay of 5-15 minutes</span>
+						<span class="post-comment"><i class="icon-heart"></i>Best Viewed on a Laptop Browser. Hover over a Stock Symbol to Check it's Traded Volume</span>
+                                        </div>                                        
+                                        <p>This Proof Of Concept (POC) Demonstrates how Stock Exchange Data can be Analyzed in Real Time. The Graphic above displays Stocks that have Share Trade Volumes more than 5,000,000 on India's <a target="_blank" href="https://www.nseindia.com/">National Stock Exchange</a>. The following Phases of this Concept have all been Implemented with Open Source Technologies:</p>
+                                        <ul>
+                                            <li>Data Sourcing</li>
+                                            <li>Data Parsing and Analytics</li>
+                                            <li>Data Visualization</li>
+                                        </ul>
+                                        <h4>Data Sourcing</h4>
+                                        <p>For POC purposes, we were expecting Stock Quote APIs to be easily available; possibly like Google Maps APIs. Wishful thinking! Most Stock Exchanges don't provide Real Time Quotes for Free. After some research, we found an awesome python library <a target="_blank" href="http://nsetools.readthedocs.io/en/latest/index.html">Nsetools</a> that parses the NSE Website and returns a set of key-value pairs for each Stock. This fulfilled our needs for the POC and we didn't look further. However, for a Production Implementation it would be best to get the feed from the Stock Exchanges or from a reputed Subscription API such as <a target="_blank" href="https://www.bloomberglabs.com/api/">BLPAPI</a>.</p>
+
+<!--                                        <blockquote>Me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis .
+                                        </blockquote>-->
+<pre>
+A few keys from the API that can be used to create Metrics:
+
+deliveryQuantity
+deliveryToTradedQuantity
+averagePrice
+dayHigh
+</pre>                                        
+                                        <h4>Data Parsing and Analytics</h4>
+                                        <p>We decided to use <a target="_blank" href="http://nsetools.readthedocs.io/en/latest/index.html">Apache Storm</a> for Parsing and running Anaytics. It is an Open Source Computation System that works on Real Time Streams on a distributed environment. It was originally developed to perform Real Time and Historical Analysis of the Twitter Firehose. You can imagine it's Capabilities considering that it is widely used to Analyze Real Time Tweets. The Software has been hosted on <a target="_blank" href="https://aws.amazon.com/">Amazon Web Services</a></p>
+
+                                        <h4>Data Visualization</h4>
+                                        <p>We have used <a target="_blank" href="https://d3js.org/">D3.js</a> for Visualizing the Stock Symbols with Traded Quantity more than 5,000,000. If you hover over a Symbol, it will display the Traded Quantity Value as a tooltip. D3.js has the capabilities of producing dynamic, interactive data visualizations. All sorts of Charts & Graphs can be produced. <a target="_blank" href="https://redis.io/">Redis</a> acts as a Message Broker between Storm and the Web-Server.</p>
+
+                                        <h4>What Next?</h4>
+                                        <p>The idea is to allow Users to create their own Metrics from the Front End, instead of pre-defined ones (such as Traded Volume > 5000000). Keep Watching this space!!</p>
+                                    </div>                                   
+                                </article>
+                                <!-- comment form Start -->
+                                <div class="comment-form-wrapper">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="comment-form ">
+                                                <h4  class="comment-title">Send a Note to the Developer</h4>
+                                                <form class="clearfix" id="main-contact-form" method="POST" action="send_eml">
+                                                    <div class="input-field-wrapper">
+                                                        <div class="input-field">
+                                                            <label for="name-f" data-error="wrong" data-success="right">Name</label>
+                                                            <input id="name-f" name="name-f" type="text" class="validate">
+                                                        </div>
+                                                        <div class="input-field">
+                                                          <label for="email" data-error="wrong" data-success="right">Email</label>
+                                                          <input id="email-f" name="email-f" type="email" class="validate" required="yes">
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear-fix my-comment-box">
+                                                        <label for="textarea1">Message</label>
+                                                        <textarea id="textarea1" name="textarea1" cols="30" rows="10"></textarea>
+                                                    </div>
+                                                    <button type="submit" class="btn-submitt btn-medium">Post Message</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- comment form End -->                                
+                            </div>                      
+                        </div>
+                    </div>
+                </div>               
+                <!-- Theme standard row End for Blog -->               
+            </div>
+            <!-- Footer area start -->
+            <footer class="footer-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-sm-6">
+                            <div class="copy-right">
+                                <p>All &copy; reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-sm-6">
+                            <div class="social-bookmark-wrapper">
+                                <ul class="social-bookmark-wrapper">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer area end -->
+        </div>
+        <!-- Main wrapper end -->
+	<script src="/static/js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/jquery.isotope.js"></script>
+        <script src="/static/js/slick.min.js"></script>
+        <script src="/static/js/plugins.js"></script>
+        <script src="/static/js/main.js"></script>
+    </body>
+</html>
